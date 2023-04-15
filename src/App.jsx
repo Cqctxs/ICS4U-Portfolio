@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import {OOP, Search, Experience, Recursion, Hero, Navbar, Array, Works, StarsCanvas} from './components';
+import {OOP, Search, Recursion, Hero, Navbar, Array} from './components';
 
 const App = () => {
     return (
