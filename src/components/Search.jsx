@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 import {styles} from "../styles.js";
 
 const Search = () => {
     return (
         <section className="relative w-full h-screen mx-auto">
-            <div className={`${styles.paddingX} max-w-5xl mx-auto flex flex-row items-start gap-5`}>
+            <div className={`${styles.paddingX} max-w-5xl mx-auto flex flex-row items-start gap-5 pb-32`}>
                 <div>
                     <p className={`${styles.sectionHeadText}`}>Searching and Sorting</p>
-                    <p className={`${styles.sectionHeadText}`}>I will split this into two separate sections later.</p>
                     <p className={`${styles.sectionSubHeadText}`}>Sequential Search</p>
                     <p className={`${styles.sectionText}`}>Sequential search is an algorithm which finds the location of
                         a target value in a list. The algorithm is very simple; scanning each element in the list and
@@ -48,6 +47,12 @@ const Search = () => {
                         the pivot, one section with elements equal to the pivot and one section with elements larger
                         than the pivot. The elements smaller and larger than the pivot are then sorted again with quick
                         sort. Once each partition has been sorted, the entire list will be sorted.</p>
+                    <p className={`${styles.code}`}>{`
+System.out.println("Hello World"); 
+for (int i = 0; i < 10; i++) {
+    System.out.println(i);
+}
+                    `}</p>
                 </div>
             </div>
         </section>
