@@ -1,4 +1,4 @@
-import {Suspense, useEffect, useState} from "react";
+import {Suspense} from "react";
 import {Canvas} from "@react-three/fiber";
 import {OrbitControls, Preload, useGLTF} from "@react-three/drei";
 import CanvasLoader from "../Loader";
@@ -8,11 +8,10 @@ const Computers = () => {
 
     return (
         <mesh>
-            <hemisphereLight intensity={100} groundColor="black"/>
             <primitive
                 object={computer.scene}
                 scale={1.8}
-                position={[0, -0.5, 0]}
+                position={[0, -0.75, 0]}
                 rotation={[-0.234, 0, 0]}
             />
         </mesh>

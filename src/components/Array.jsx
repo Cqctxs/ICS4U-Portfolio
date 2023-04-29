@@ -24,7 +24,7 @@ const Array = () => {
                         index n-1, where n is the index of the array.</p>
                     <Heading text={`How to Use Arrays`}/>
                     <p className={`${styles.sectionText}`}>Arrays can be declared in Java with the datatype and the
-                        square brackets []. An array can be initialized with the keyword <span
+                        square brackets ([]). An array can be initialized with the keyword <span
                             className={`${styles.sectionBold}`}>new</span>, followed by the datatype and the length
                         inside of the square brackets. Arrays can also be initialized with values, which is done by
                         wrapping the values with curly brackets {}.</p>
@@ -103,11 +103,115 @@ for (int i = 0; i < rows; i++) {
     }
 }
                     `}/>
+                    <Heading text={`Common Mistakes with Arrays`}/>
+                    <ul className={`${styles.sectionText} list-disc ${styles.paddingX}`}>
+                        <li className={'mt-4'}>
+                            Trying to access an array element using an index that is outside the valid range causes an
+                            ArrayIndexOutOfBoundsException.
+                        </li>
+                        <li className={'mt-4'}>
+                            Not initializing arrays before accessing values causes a NullPointerException.
+                        </li>
+                        <li className={'mt-4'}>
+                            Storing an element of an incompatible type in an array causes an ArrayStoreException.
+                        </li>
+                        <li className={'mt-4'}>
+                            Assigning an array to another variable or passing an array into a method can lead to
+                            unwanted changes. Modifying one array can inadvertently affect the other when doing this.
+                        </li>
+                    </ul>
                     <Heading text={`ArrayLists`}/>
                     <p className={`${styles.sectionText}`}>An ArrayList is a class provided by the Java Collections
                         Framework that implements the List interface. It is a dynamic, resizable array-like data
                         structure that allows you to store and manipulate elements of any type.</p>
-                    <p className={`${styles.sectionText}`}>When using the ArrayLists in Java, it is important to import the ArrayList class from the <span>java.util</span> package.</p>
+                    <p className={`${styles.sectionText}`}>When using the ArrayLists in Java, it is important to import
+                        the ArrayList class from the <span>java.util</span> package. To declare and initialize an
+                        ArrayList, you must specify the type of elements the list will hold within angle
+                        brackets &lt;&gt;. The ArrayList is then initialized using the <span
+                            className={`${styles.sectionBold}`}>new</span> keyword, followed by the ArrayList and type
+                        in angle brackets, as well as a pair of round brackets, as this is a constructor. You can also
+                        specify the initial capacity of the ArrayList, by adding an integer value inside of the round
+                        brackets.</p>
+                    <Code text={`
+//Import ArrayList class
+import java.util.ArrayList;
+
+//Declare an ArrayList of integers called numbers
+ArrayList<Integer> numbers;
+//Initialize the ArrayList, using the no-argument ArrayList constructor
+numbers = new ArrayList<Integer>();
+
+ArrayList<Integer> newNumbers;
+//Initialize the ArrayList, setting the initial capacity to 40
+newNumbers = new ArrayList<Integer>(40);
+                    `}/>
+                    <p className={`${styles.sectionText}`}>Primitive types (such as int, double, char, boolean, etc.)
+                        cannot be used directly as type arguments for generics, including ArrayList. This is because
+                        generics in Java can only work with reference types, not primitive types.</p>
+                    <p className={`${styles.sectionText}`}>To work around this limitation, Java provides wrapper classes
+                        for each primitive type. These wrapper classes (e.g., Integer for int, Double for double) are
+                        reference types and can be used as type arguments for generics, including ArrayList.</p>
+                    <p className={`${styles.sectionText}`}>Here are the most useful ArrayList methods:</p>
+                    <Code text={`
+// Creating and initializing an ArrayList
+ArrayList<String> fruits = new ArrayList<>();
+
+//.add(E obj) appends obj to end of list and returns true
+fruits.add("Apple");
+fruits.add("Banana");
+fruits.add("Orange");
+//.add(int idx, E obj) is an overloaded version of .add()
+//adds the element to the specified index
+fruits.add(0, "Mango");
+
+//.size() returns the size of the array
+System.out.println("Size: " + fruits.size()); // 4
+
+//.get(int idx) returns the element at position index in the list
+System.out.println("First element: " + fruits.get(0)); // Mango
+
+//.set(int idx, E obj) replaces the element at position idx with obj 
+//and returns the element formerly at position idx
+fruits.set(1, "Grapes");
+System.out.println(fruits); // Mango, Grapes, Banana, Orange
+
+//.remove(int idx) removes element from position idx, shifting everything else into place.
+//Returns the element that was at idx
+fruits.remove(2);
+System.out.println(fruits); // Mango, Grapes, Orange
+                    `}/>
+                    <Code text={`
+Output:
+Size: 4
+First element: Mango
+Mango, Grapes, Banana, Orange
+Mango, Grapes, Orange
+                    `}/>
+                    <p className={`${styles.sectionText}`}>The code segment above demonstrates the most useful methods
+                        of ArrayLists. The ArrayList class has many more methods, which can be found in the Java
+                        documentation.</p>
+                    <Heading text={`Common Mistakes with ArrayLists`}/>
+                    <ul className={`${styles.sectionText} list-disc ${styles.paddingX}`}>
+                        <li className={'mt-4'}>
+                            ArrayList is part of the java.util package, so it needs to be imported before using it.
+                            Forgetting to import the class can lead to compilation errors.
+                        </li>
+                        <li className={'mt-4'}>
+                            Modifying an ArrayList (e.g., adding or removing elements) while iterating over it using an
+                            enhanced for loop can cause a ConcurrentModificationException. To avoid this, use a
+                            traditional for loop.
+                        </li>
+                        <li className={'mt-4'}>
+                            ArrayList is a generic class, but can be used without specifying the type
+                            parameter (e.g. ArrayList list = new ArrayList();). This is known as using a raw type and
+                            can lead to type safety issues. It is recommended to use generic ArrayLists by specifying
+                            the type parameter (e.g. ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();).
+                        </li>
+                        <li className={'mt-4'}>
+                            Using the square brackets ([]) to access elements in an ArrayList does not work and will
+                            lead to a compilation error.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

@@ -1,14 +1,15 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import {OOP, Search, Recursion, Hero, Navbar, Array} from './components';
+import {OOP, Search, Recursion, Navbar, Array} from './components';
+import About from "./components/About.jsx";
 
 const App = () => {
     return (
         <Router>
             <Navbar/>
-            <div className="bg-hero-pattern bg-contain bg-no-repeat bg-center">
+            <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
                 <Routes>
-                    <Route path={'/'} element={<Hero/>}/>
+                    <Route path={'/'} element={<About/>}/>
                     <Route path={'/oop'} element={<OOP/>}/>
                     <Route path={'/arrays'} element={<Array/>}/>
                     <Route path={'/search'} element={<Search/>}/>

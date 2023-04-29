@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-code-blocks": "^0.0.9-0",
     "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.131",
     "react-router-dom": "^6.9.0",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
