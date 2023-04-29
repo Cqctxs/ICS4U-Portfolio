@@ -25,15 +25,15 @@ const projects = [
             "Discord bot that allows users to send and receive emails on Discord. This project was made by Felix Zhao, Alex Zhu, Glen Lin and I as a submission to LyonHacks III.",
         tags: [
             {
-                name: "python",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "gmail-api",
+                name: "Gmail-API",
                 color: "green-text-gradient",
             },
             {
-                name: "discord-api",
+                name: "Discord-API",
                 color: "pink-text-gradient",
             },
         ],
@@ -46,15 +46,15 @@ const projects = [
             "Web application that helps users focus. Features include a weekly calendar system, to do list and a focus timer. This project was made as my ICS3U final project.",
         tags: [
             {
-                name: "javascript",
+                name: "Javascript",
                 color: "blue-text-gradient",
             },
             {
-                name: "html",
+                name: "HTML",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
