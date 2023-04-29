@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
-  "homepage": "https://cqctxs.github.io/ICS4U-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -16,7 +16,6 @@
     "framer-motion": "^10.5.0",
     "maath": "^0.5.3",
     "react": "^18.2.0",
-    "react-code-blocks": "^0.0.9-0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.131",
     "react-router-dom": "^6.9.0",

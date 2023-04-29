@@ -1,7 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import {OOP, Search, Recursion, Navbar, Array} from './components';
-import About from "./components/About.jsx";
+import {OOP, Search, Recursion, Navbar, Array, About} from './components';
 
 const App = () => {
     return (
