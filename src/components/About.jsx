@@ -1,9 +1,13 @@
-import React from 'react'
+import Hero from "./Hero.jsx";
+import Projects from "./Projects.jsx";
 
 const About = () => {
-  return (
-    <div></div>
-  )
+    return (
+        <div>
+            <Hero/>
+            <Projects/>
+        </div>
+    )
 }
 
 export default About
