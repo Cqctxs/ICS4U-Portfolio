@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
 import {styles} from '../styles';
@@ -14,7 +14,7 @@ const Navbar = () => {
         >
             <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                 <Link
-                    to="/"
+                    to="/ICS4U-Portfolio"
                     className="flex items-center gap-2"
                     onClick={() => {
                         setActive("");

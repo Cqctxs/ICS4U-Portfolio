@@ -9,7 +9,7 @@ const App = () => {
             <Navbar/>
             <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
                 <Routes>
-                    <Route path={'/'} element={<About/>}/>
+                    <Route path={'/ICS4U-Portfolio/'} element={<About/>}/>
                     <Route path={'/oop'} element={<OOP/>}/>
                     <Route path={'/arrays'} element={<Array/>}/>
                     <Route path={'/search'} element={<Search/>}/>
