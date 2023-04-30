@@ -6,6 +6,7 @@ import Array from './Array.jsx';
 import Recursion from './Recursion.jsx';
 import Search from './Search.jsx';
 import About from "./About.jsx";
+import Bibliography from "./Bibliography.jsx";
 
 export {
   Hero,
@@ -18,5 +19,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  About
+  About,
+  Bibliography,
 }

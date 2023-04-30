@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import {OOP, Search, Recursion, Navbar, Array, About} from './components';
+import {OOP, Search, Recursion, Navbar, Array, About, Bibliography} from './components';
 
 const App = () => {
     return (
@@ -13,6 +13,7 @@ const App = () => {
                     <Route path={'/arrays'} element={<Array/>}/>
                     <Route path={'/search'} element={<Search/>}/>
                     <Route path={'/recursion'} element={<Recursion/>}/>
+                    <Route path={'/bibliography'} element={<Bibliography/>}/>
                 </Routes>
             </div>
         </Router>

@@ -35,7 +35,8 @@ numbers = new int[5] //Initialization of an the array with a length of 5
 //int = 0, double = 0.0, boolean = false, Objects = null
 
 //Arrays can also be initialized with values
-int[] nums = {1, 2, 3, 4, 5}; //Declaration and initialization of an array with values
+int[] nums = {1, 2, 3, 4, 5};
+//Declaration and initialization of an array with values
                     `}/>
                     <p className={`${styles.sectionText}`}>Specific elements can be accessed, as well as updated using
                         the square brackets, with the index number inside. Trying to access an element with a negative
@@ -92,8 +93,10 @@ int value = matrix[1][2]; // Accessing an element at row 1, column 2
                         multidimensional array has a length property for each dimension. The specific length of each
                         dimension can be accessed with the corresponding index.</p>
                     <Code text={`
-int rows = matrix.length; // Length of the first dimension (number of rows)
-int columns = matrix[0].length; // Length of the second dimension (number of columns)
+// Length of the first dimension (number of rows)
+int rows = matrix.length;
+// Length of the second dimension (number of columns)
+int columns = matrix[0].length;
 
 //Iterating through a multidimensional array using nested loops
 for (int i = 0; i < rows; i++) {
@@ -175,7 +178,8 @@ System.out.println("First element: " + fruits.get(0)); // Mango
 fruits.set(1, "Grapes");
 System.out.println(fruits); // Mango, Grapes, Banana, Orange
 
-//.remove(int idx) removes element from position idx, shifting everything else into place.
+//.remove(int idx)
+//removes element from position idx, shifting everything else into place.
 //Returns the element that was at idx
 fruits.remove(2);
 System.out.println(fruits); // Mango, Grapes, Orange

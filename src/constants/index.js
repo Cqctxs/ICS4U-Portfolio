@@ -17,6 +17,10 @@ export const navLinks = [
         id: "recursion",
         title: "Recursion",
     },
+    {
+        id: "bibliography",
+        title: "Bibliography",
+    },
 ];
 const projects = [
     {

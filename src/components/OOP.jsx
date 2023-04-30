@@ -303,9 +303,9 @@ public class ScottishFold extends Cat {
     }
     
     //Constructor with parameters
-    public ScottishFold(String name, String color, double weight, boolean isFoldedEars) {
-        super(name, "Scottish Fold", color, weight);
-        this.isFoldedEars = isFoldedEars;
+    public ScottishFold(String name, String col, double w, boolean ears) {
+        super(name, "Scottish Fold", col, w);
+        this.isFoldedEars = ears;
     }
     
     @Override
@@ -379,8 +379,10 @@ public static void main(String[] args) {
         System.out.println(cat.meow()); // Polymorphic method invocation
         
         if (cat instanceof ScottishFold) {
-            ScottishFold scottishFold = (ScottishFold) cat; //Downcasting
-            System.out.println(scottishFold.showEarsStatus()); //Subclass method invocation
+            //Downcasting
+            ScottishFold scottishFold = (ScottishFold) cat;
+            //Subclass method invocation
+            System.out.println(scottishFold.showEarsStatus());
         }
         System.out.println();
     }
