@@ -47,7 +47,9 @@ const projects = [
     {
         name: "Focusfy",
         description:
-            "Web application that helps users focus. Features include a weekly calendar system, to do list and a focus timer. This project was made as my ICS3U final project.",
+            "Web application that helps users focus. Features include a weekly calendar system, to do list and a" +
+            " focus timer. This project was made by Alex Zhu, Raymond Ouyang and I. We learned a lot through this" +
+            " project, learning about ",
         tags: [
             {
                 name: "Javascript",
@@ -66,20 +68,24 @@ const projects = [
         source_code_link: "https://github.com/theCityCR/ICS-11-Culminating-Project",
     },
     {
-        name: "DMOJ Problems",
+        name: "Finals Frenzy",
         description:
-            "DMOJ is an online competitive programming judge, where users can solve competitive programming problems. I solve problems on DMOJ to practice my coding skills.",
+            "Finals Frenzy is a game made by Nirvan Rabbani and I for my ICS4U0 final project. The theme of the" +
+            " project was to create a game about survival. We chose the theme of surviving exam and finals week." +
+            " This was a relevant topic at the time since we made the project juggling other culminating projects and" +
+            " studying for exams. Our game was focused on helping other teenagers handle this stressful time with" +
+            " our research and experience, so other people can succeed.",
         tags: [
             {
                 name: "Java",
                 color: "blue-text-gradient",
             },
             {
-                name: "C++",
+                name: "Java Swing",
                 color: "green-text-gradient",
             },
             {
-                name: "Python",
+                name: "Github",
                 color: "pink-text-gradient",
             },
         ],
