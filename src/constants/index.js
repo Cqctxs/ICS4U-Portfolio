@@ -26,7 +26,15 @@ const projects = [
     {
         name: "InBot",
         description:
-            "Discord bot that allows users to send and receive emails on Discord. This project was made by Felix Zhao, Alex Zhu, Glen Lin and I as a submission to LyonHacks III.",
+            "Inbot is a project made by Alex Zhu, Felix Zhao, Glen Lin and I as a submission to the LyonHacks III" +
+            " hackathon. Inbot is a new, innovative discord bot that can be used to access, read and send emails to" +
+            " the user. We all learned a lot in this project, learning how to use the Gmail and Discord" +
+            " APIs. Throughout the development process, we faced various challenges and hurdles. Learning to work" +
+            " with the Gmail API was a particularly significant learning experience for us. We delved into the" +
+            " documentation, familiarized ourselves with the intricacies of the API, and learned how to authenticate" +
+            " and interact with Gmail accounts programmatically. This knowledge enabled us to access and read" +
+            " emails, as well as send them on behalf of the user through our Discord bot. The LyonHacks submission" +
+            " can be seen with the link above.",
         tags: [
             {
                 name: "Python",
@@ -47,9 +55,15 @@ const projects = [
     {
         name: "Focusfy",
         description:
-            "Web application that helps users focus. Features include a weekly calendar system, to do list and a" +
-            " focus timer. This project was made by Alex Zhu, Raymond Ouyang and I. We learned a lot through this" +
-            " project, learning about ",
+            "Focusfy is a web application that helps users focus. Features include a weekly calendar system, to do" +
+            " list and a focus timer. This project was made by Alex Zhu, Raymond Ouyang and I. Throughout the" +
+            " development process, we dove into the fundamentals of web development. We familiarized" +
+            " ourselves with JavaScript, HTML, and CSS, which are the building blocks of modern web applications." +
+            " This project allowed us to put our knowledge into practice and deepen our understanding of these" +
+            " technologies. We gained valuable insights into structuring web pages, handling user interactions, and" +
+            " styling elements to create an intuitive and visually pleasing user interface." +
+            " Creating Focusfy taught us more than just technical skills. We learned the importance" +
+            " of effective communication and teamwork. Focusfy can be accessed with the link above.",
         tags: [
             {
                 name: "Javascript",
@@ -65,16 +79,21 @@ const projects = [
             },
         ],
         image: focusfy,
-        source_code_link: "https://github.com/theCityCR/ICS-11-Culminating-Project",
+        source_code_link: "https://focusfy.vercel.app/",
     },
     {
         name: "Finals Frenzy",
         description:
-            "Finals Frenzy is a game made by Nirvan Rabbani and I for my ICS4U0 final project. The theme of the" +
-            " project was to create a game about survival. We chose the theme of surviving exam and finals week." +
-            " This was a relevant topic at the time since we made the project juggling other culminating projects and" +
-            " studying for exams. Our game was focused on helping other teenagers handle this stressful time with" +
-            " our research and experience, so other people can succeed.",
+            "Finals Frenzy is a game made by Nirvan Rabbani and I for my ICS4U0 final project. The theme of survival" +
+            " perfectly encapsulated the intensity and pressure of exam and finals week. We" +
+            " recognized that this was a relatable and relevant topic for our target audience, as we were personally" +
+            " juggling multiple culminating projects and studying for exams ourselves. By choosing this theme, we" +
+            " aimed to create a game that not only reflected the real-life challenges faced by students but also" +
+            " offered strategies and tips for success. Throughout the development process, we conducted " +
+            " research on effective study techniques and time management. We wanted to" +
+            " ensure that our game not only entertained players but also provided advice" +
+            " that could help players succeed during exam and finals week. The github to the project can be" +
+            " accessed with the link above.",
         tags: [
             {
                 name: "Java",
