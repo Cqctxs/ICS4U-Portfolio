@@ -1,4 +1,4 @@
-import {inbot, focusfy, dmoj} from "../assets/index.js";
+import {inbot, focusfy, finalsfrenzy} from "../assets/index.js";
 
 export const navLinks = [
     {
@@ -92,8 +92,8 @@ const projects = [
             " offered strategies and tips for success. Throughout the development process, we conducted " +
             " research on effective study techniques and time management. We wanted to" +
             " ensure that our game not only entertained players but also provided advice" +
-            " that could help players succeed during exam and finals week. The github to the project can be" +
-            " accessed with the link above.",
+            " that could help players succeed during exam and finals week. You can learn more by visiting the link" +
+            " above.",
         tags: [
             {
                 name: "Java",
@@ -108,8 +108,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: dmoj,
-        source_code_link: "https://dmoj.ca/user/Lost_Cactus",
+        image: finalsfrenzy,
+        source_code_link: "https://github.com/nir1r7/isp2023",
     },
 ];
 

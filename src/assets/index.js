@@ -5,8 +5,8 @@ import link from "./link.png";
 
 import inbot from "./inbot.png";
 import focusfy from "./focusfy.png";
-import dmoj from "./dmoj.png";
-
+import finalsfrenzy from "./finalsfrenzy.png";
+import personal from "./personalphoto.png";
 
 
 export {
@@ -16,5 +16,6 @@ export {
     link,
     inbot,
     focusfy,
-    dmoj
+    finalsfrenzy,
+    personal
 };

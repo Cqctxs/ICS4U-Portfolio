@@ -67,8 +67,8 @@ const Projects = () => {
 
             <div className='w-full flex'>
                 <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-                    The following projects are just some fun things I made in my spare time. These projects are nowhere
-                    near polished or a state where I would say they are completed, but I think they're worth showing.
+                    These following projects are a showcase of my finest work. I had a lot of fun and learned a lot
+                    creating these projects. I hope you find them interesting!
                 </p>
             </div>
 
