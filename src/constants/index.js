@@ -18,6 +18,10 @@ export const navLinks = [
         title: "Recursion",
     },
     {
+        id: "isp",
+        title: "ISP",
+    },
+    {
         id: "bibliography",
         title: "Bibliography",
     },
@@ -92,8 +96,7 @@ const projects = [
             " offered strategies and tips for success. Throughout the development process, we conducted " +
             " research on effective study techniques and time management. We wanted to" +
             " ensure that our game not only entertained players but also provided advice" +
-            " that could help players succeed during exam and finals week. You can learn more by visiting the link" +
-            " above.",
+            " that could help players succeed during exam and finals week. You can learn more by clicking the ISP tab.",
         tags: [
             {
                 name: "Java",
