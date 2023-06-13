@@ -80,6 +80,9 @@ const Bibliography = () => {
                         player movement, as well as the Player2 class, which is used solely in level 2. Furthermore, I
                         created the Obstacle and Falling Obstacle classes, which are responsible for being obstacles
                         which the player can interact with.</p>
+                    <br/>
+                    <a href={'https://github.com/nir1r7/isp2023'} className={`text-[#915eff]`}>Github repository can be
+                        accessed by clicking here.</a>
                 </div>
             </div>
         </section>
