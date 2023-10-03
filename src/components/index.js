@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, BallCanvas, GlobeCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import OOP from './OOP.jsx';
@@ -17,7 +17,7 @@ export {
   Search,
   EarthCanvas, 
   BallCanvas, 
-  ComputersCanvas, 
+  GlobeCanvas,
   StarsCanvas,
   About,
   Bibliography,

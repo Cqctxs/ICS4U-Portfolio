@@ -1,5 +1,5 @@
 import {styles} from '../styles';
-import {personal} from "../assets/index.js";
+import {GlobeCanvas} from "./canvas/index.js";
 
 const Hero = () => {
     return (
@@ -21,7 +21,7 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <img src={`${personal}`} alt={"Image of Sean Zhao."}/>
+            <GlobeCanvas />
         </section>
     )
 }
